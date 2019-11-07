@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Concert+One|Permanent+Marker|Spicy+Rice|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/gif" href="/img/ketoico.gif" />
+    <title>Go!Keto Manager</title>
+
+  </head>
+  <body>
+
+        <!-- Navigation -->
+        <div class="toppasek">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand pr-4" href="#"><h3>Go<span class="excla">!</span><span class="keto">K</span>eto<span class="dot">.</span>live</h3></a>
+                      
+                        <div class="collapse navbar-collapse  justify-content-between" id="navbarTogglerDemo03">
+                          <div class="menuwrap">
+                            <ul class="navbar-nav mt-2 mt-lg-0">
+                              <li class="nav-item">
+                              <a class="nav-link" href="#">START</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link active" href="#">PRODUCTS<span class="sr-only">(current)</span></a>
+                              </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">MEALS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">MY DIET</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">KNOWLEDGE</a>
+                            </li></ul>
+                        </div>
+                        <div class="menubtns float-right d-none d-lg-block">
+                          <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+                              </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"><i class="fas fa-cog"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                    </div>
+                  </div>
+<!-- Navigation Ends -->
+
+<!-- Add Product -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto prod-add-tab d-none">
+          <div class="card card-body text-center mt-3 mb-3 card001">
+
+                         <!-- buttns for add product navigation -->
+
+                         <div class="add-product-btns">
+                            <div class="load-default-products btn3 btn product-list-btn"> GET PRODUCTS </div>
+            
+                            <div class="cancel-add-prod btn4 btn product-list-btn"> CLOSE </div>
+                          </div>
+            <h1 class="heading display-5 pb-2">ADD PRODUCT</h1><br>
+            <form class="add-product">
+                  <h5>name:</h5>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-text" style="font-size: 1.7rem;"><i class="fas fa-edit"></i></span>
+                  <input type="text" class="form-control form-control-lg product-name-input" placeholder="Ser zółty Gouda">
+                </div>
+              </div><br>
+              <h5>category:</h5>
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-text" style="font-size: 1.7rem;"><i class="fas fa-chart-pie"></i></span>
+                  <select class="form-control form-control-lg categories-input">
+                        <option value="nochoice">pick one...</option>
+                        <option value="diary">DIARY</option>
+                        <option value="meat">MEAT</option>
+                        <option value="vegetables">VEGGIES</option>
+                        <option value="fruits">FRUIT</option>
+                        <option value="bread">BREAD</option>
+                        <option value="desert">DESERTS</option>
+                  </select>
+                </div>
+              </div><br><br>
+                  <h5>label data:</h5>
+              <div class="form-group">
+                  <div class="input-group">
+                  <span class="input-group-text" style="font-size: 1.4rem;"><i class="fas fa-car-battery"></i></span>
+                   <input type="number" class="form-control kcal-input" step=".01" aria-describedby="kalorieHelpTekst" placeholder="394">
+                  </div><small id="kalorieHelpTekst" class="form-text text-left">kcal per 100g</small>
+              </div>
+              <div class="form-group">
+                  <div class="input-group">
+                  <span class="input-group-text" style="font-size: 1.4rem;"><i class="fas fa-drumstick-bite"></i></span>
+                   <input type="number" class="form-control protein-input" step=".01" aria-describedby="proteinHelpTekst" placeholder="24">
+                  </div><small id="proteinHelpTekst" class="form-text text-left">protein per 100g</small>
+
+              </div>
+                  <div class="form-group">
+                        <div class="input-group">
+                       <span class="input-group-text" style="font-size: 1.4rem;"><i class="fas fa-tint"></i></span>
+                   <input type="number" class="form-control fat-input" step=".01" aria-describedby="fatHelpTekst" placeholder="31">
+                 </div><small id="fatHelpTekst" class="form-text text-left">
+                  fat per 100g
+                 </small>
+              </div>
+              <div class="form-group">
+                        <div class="input-group">
+                       <span class="input-group-text" style="font-size: 1.4rem;"><i class="fas fa-birthday-cake"></i></span>
+                   <input type="number" class="form-control carbs-input" step=".01" aria-describedby="carbsHelpTeksst" placeholder="0">
+                  </div><small id="carbsHelpTekst" class="form-text text-left">carbohydrates per 100g</small>
+                 
+              </div><br>
+              <div class="form-group">
+                  <div class="input-group">
+                 <span class="input-group-text" style="font-size: 1.7rem;"><i class="fas fa-search-dollar"></i></span>
+                 <input type="number" class="form-control form-control-lg price-input" step=".01" aria-describedby="priceHelpTeksst" placeholder="36.00">
+            </div><small id="priceHelpTekst" class="form-text text-left">price per 1kg of product</small>
+           
+        </div><br>
+        <div class="errormsg"></div>
+              <div class="form-group btn-group add-product-btns pt-1">
+                <input type="submit" value="SAVE PRODUCT" class="btn saveproduct-btn">            
+                <div class="cancel-add-prod2 btn5 btn product-calc-btn">CANCEL</div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+<!-- Product Calc Tab -->
+
+<div class="col-lg-6 mx-auto prod-calc-tab d-none">
+    <div class="card card-body text-center mt-3 mb-3 card002">
+
+               <!-- buttns for product calc navigation -->
+
+               <div class="product-calc-btns">
+                  <div class="create-meal-with btn1 btn product-calc-btn">ADD TO MEAL</div>
+                  <div class="add-to-meal btn2 btn product-calc-btn">EDIT</div>
+                  <div class="add-to-meal btn2 btn product-calc-btn">DELETE</div>
+                  <div class="product-list-close btn2 btn product-calc-btn">CLOSE</div>
+              </div>
+      <h1 class="heading display-5 pb-2 dproduct-name">PRODUCT</h1>
+      <br>
+      <form class>
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-text" style="font-size: 1.4rem;"><i class="fas fa-weight-hanging"></i></span>
+            <input type="number" class="form-control form-control-lg pcalc-input" aria-describedby="pcalcHelpTeksst" placeholder="100">
+          </div><small id="pcalcHelpTekst" class="form-text text-left">enter weight in grams</small>  
+        </div>
+      </form>
+
+      <div class="product-info">
+        <h2></h2><br>
+        <table class="table">
+            <tr>
+              <th scope="row">per <span class="weight-info"></span>:</th>
+              <td></td>
+              <td>daily goal / limit</td>
+            </tr>
+              <tr>
+                  <th scope="row">energy:</th>
+                  <td><span class="kcal-info"></span></td>
+                  <td><span class="kcal-percent-info"></span></td>
+                </tr>
+            <tr>
+              <th scope="row">protein:</th>
+              <td><span class="protein-info"></span></td>
+              <td><span class="protein-percent-info"></span></td>
+            </tr>
+            <tr>
+              <th scope="row">fat:</th>
+              <td><span class="fat-info"></span></td>
+              <td><span class="fat-percent-info"></span></td>
+            </tr>
+            <tr>
+              <th scope="row">carbs:</th>
+              <td><span class="carbs-info"></span></td>
+              <td><span class="carbs-percent-info"></span></td>
+            </tr>
+            <tr>
+              <th scope="row">cost:</th>
+              <td><span class="price-info"></span><span class="price-unit"></span></td>
+              <td><span class="cost-percent-info">u/c</span></td>
+            </tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+<!-- Lista produktow -->
+
+
+        <div class="col-lg-6 mx-auto test-lisy">
+            <div class="card card-body text-center mt-3 mb-3 card003">
+
+
+             <!-- buttns for product list navigation -->
+
+             <div class="product-list-btns">
+                <div class="open-add-tab btn3 btn product-list-btn"> NEW </div>
+                <div class="load-default-products2 btn3 btn product-list-btn"> GET PRODUCTS </div>
+                <div class="product-list-clear btn4 btn product-list-btn"> CLEAR </div>
+              </div>
+
+              <h1 class="heading display-5 pb-2">PRODUCTS</h1><br>
+
+  <form class="form">
+      <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-text" style="font-size: 1.7rem;"><i class="fas fa-search"></i></span>
+            <input type="text" class="form-control form-control-lg filter-input" placeholder="start typing...">
+            <span class="input-group-text clear-filter btn" style="font-size: 1.7rem;"><i class="fas fa-times"></i></span>
+          </div>
+        </div>
+    </form>
+
+
+            <!-- product list renders below -->
+              <ul class="list-group product-list">
+
+                  <!-- products here -->
+
+              </ul>
+            </div>
+          </div>
+
+      </div> <!-- row ends-->
+    </div>  <!-- container ends-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d665e54522.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

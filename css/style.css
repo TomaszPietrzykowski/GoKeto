@@ -1,0 +1,181 @@
+/* CSS VARIABLES */
+
+:root{
+    --ico: rgba(255, 135, 0, 1);
+    --bgcolor: rgba(128, 0, 0, 1);
+    --textDefault: rgba(40, 30, 30, 1);
+    --light: rgba(255, 255, 255, 1);
+    --transparent01: rgba(255, 255, 255, 0.75);
+    --go: rgba(0, 255, 0, 1);
+    --keto: rgba(255, 0, 0, 1);
+    /* color scheme variables */
+    --green: rgba(0, 255, 0, 1);
+    --red: rgba(255, 0, 0, 1);
+    --bluePrimary: rgba(1, 12, 24, 1);
+    --blueSecondary: rgba(3, 23, 46, 1);
+    --blueThirdary: rgba(0, 120, 233, 1);
+    --greenPrimary: rgba(0, 47, 32, 1);
+    --greenSecondary: rgba(1, 50, 44, 1);
+    --purplePrimary: rgba(4, 2, 26, 1);
+    --purpleSecondary: rgba(10, 6, 49, 1);
+    --marineTone2: rgba(47, 72, 88, 1);
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--textDefault);
+    background: var(--light);
+}
+
+.excla{
+    color: var(--green);
+}
+.dot{
+    color: var(--red);
+}
+
+.keto{
+    color: var(--light);
+}
+
+li{
+    padding-left: 1rem;
+}
+
+.toppasek{
+    color: var(--light);
+    border-bottom: 2px solid var(--light);
+    background: var(--bluePrimary)
+}
+
+h1{
+    margin-top: 2.5rem;
+}
+
+.btn{
+    background: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: var(--light);
+}
+h5{
+    font-size: 1.6rem;
+}
+
+.input-group-text{
+    color: var(--purplePrimary);
+    background: var(--light);
+}
+
+
+.list-group-item{
+    text-align: start;
+}
+
+
+.card001{
+     background: var(--greenSecondary);
+ }
+
+.card002{
+    background: var(--purpleSecondary);
+}
+
+.card003{
+    background: var(--blueSecondary);
+}
+
+ .card{
+    border-radius: 10px;
+    padding: 2rem 3rem 3rem 3rem;
+
+ }
+
+/* 
+.saveproduct-btn{
+    background: var(--bluePrimary);
+}
+
+.saveproduct-btn:hover{
+    background: var(--blueSecondary);
+}
+
+.saveproduct-btn:active{
+    background: var(--bluePrimary);
+} */
+
+
+small{
+    font-size: 1.2rem;
+    color: var(--light);
+    padding-left: 3rem;
+}
+
+/* Product info and calc */
+
+
+table{
+    color: var(--light);
+}
+
+/* Product list styles */
+
+
+.product-list-btns,
+.product-calc-btns,
+.add-product-btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-list-btn,
+.product-calc-btn,
+.saveproduct-btn{
+    /* font-size: 1.2rem; */
+    color: var(--light);
+    border: 1px solid var(--light);
+    /* border-radius: 30px; */
+    padding: 0.3rem 1rem 0.3rem 1rem;
+
+}
+/* 
+.product-calc-btn{
+    margin: 0 1rem 0 1rem;
+
+}
+
+.btn1{
+    background: var(--greenPrimary);
+}
+
+.btn2{
+    background: var(--marineTone2);
+}
+
+.btn3{
+    background: var(--greenPrimary);
+}
+
+.btn4{
+    background: var(--marineTone2);
+}
+ */
+
+ /* Errors styling */
+
+ .errormsg{
+     min-height: 3rem;
+     font-size: 1.4rem;
+     border-radius: 30px;
+ }
+
+ @media(max-width:600px){
+     .card{
+         padding: 1rem;
+     }
+ }
